@@ -4,8 +4,7 @@ git学习笔记
 --------
 
 * 本地仓库操作
-
-创建文件
+创建文件：
 ```bash
 $ touch 文件
 ```
@@ -20,7 +19,7 @@ $ git commit -a 必要的说明
 //相当于运行 git add 把所有当前目录下的文件加入暂存区域再运行git commit.
 ```
 ```bash
-$ git status
+$ git status//查看当前文件与库的状态
 
 $ git log
 $ git log --pretty=oneline //查看日志，后者是单行显示
