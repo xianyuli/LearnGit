@@ -29,5 +29,3 @@ $ git diff //查看本地与库的不同
 $ git diff README.md//查看文件与库文件的不同
 
 ```
-
-
