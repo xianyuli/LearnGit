@@ -23,11 +23,10 @@ $ git commit -a 必要的说明
 $ git status
 
 $ git log
-$ git log --pretty=oneline
-$ git reflog
+$ git log --pretty=oneline //查看日志，后者是单行显示
+$ git reflog //查看每一次输入的命令
 
-$ git diff
-$ git diff README.md
-
+$ git diff //查看本地与库的不同
+$ git diff README.md//查看文件与库文件的不同
 
 ```
