@@ -42,8 +42,8 @@ $ git reset --hard commit_id
 
 ```
 与github仓库建立起信任关系：
-//本地生成ssh key
 ```bash
+//本地生成ssh key
 $ ssh-keygen
-```
 //将id_rsa.pub中的公匙添加到github的ssh当中即可
+```
