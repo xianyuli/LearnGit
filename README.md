@@ -40,6 +40,10 @@ $ git reset --hard head^
 $ git reset --hard commit_id 
 //根据版本号回退，commit_id可以在git reflog命令下查看。
 
-
-
 ```
+与github仓库建立起信任关系：
+//本地生成ssh key
+```bash
+$ ssh-keygen
+```
+//将id_rsa.pub中的公匙添加到github的ssh当中即可
