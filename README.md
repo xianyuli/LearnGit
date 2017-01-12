@@ -39,7 +39,9 @@ $ git log
 git log -p -2//-p 选项展开显示每次提交的内容差异，用 -2 则仅显示最近的两次更新
 $ git log --pretty=oneline 
 //查看日志，后者是单行显示
+```
 ![pic](https://github.com/xianyuli/LearnGit/pic/log语法.png "log语法")
+```bash
 $ git reflog 
 //查看每一次输入的命令
 
