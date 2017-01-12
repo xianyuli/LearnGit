@@ -19,6 +19,13 @@ $ git commit -m 必要的说明
 $ git commit -a 必要的说明	
 //相当于运行 git add 把所有当前目录下的文件加入暂存区域再运行git commit.
 ```
+移除文件：
+```bash
+$ rm 文件//移除本地文件
+$ git rm 文件//移除工作暂存区文件
+//再commit,git库里的文件就会被移除
+```
+
 其他的操作：
 ```bash
 $ git status
@@ -40,6 +47,7 @@ $ git reset --hard head^
 $ git reset --hard commit_id 
 //根据版本号回退，commit_id可以在git reflog命令下查看。
 
+$ git branch //查看版本分支
 
 
 ```
