@@ -36,8 +36,10 @@ $ git status
 //查看当前文件与库的状态
 
 $ git log
+git log -p -2//-p 选项展开显示每次提交的内容差异，用 -2 则仅显示最近的两次更新
 $ git log --pretty=oneline 
 //查看日志，后者是单行显示
+![pic](https://github.com/xianyuli/LearnGit/pic/log语法.png "log语法")
 $ git reflog 
 //查看每一次输入的命令
 
@@ -62,4 +64,9 @@ $ git branch //查看版本分支
 //本地生成ssh key
 $ ssh-keygen
 //将id_rsa.pub中的公匙添加到github的ssh当中即可
+
+克隆库到本地工作目录
+$ git clone git@github.com:xianyuli/LearnGit.git
+
+
 ```
