@@ -47,7 +47,16 @@ $ git reset --hard head^
 $ git reset --hard commit_id 
 //根据版本号回退，commit_id可以在git reflog命令下查看。
 
+<<<<<<< HEAD
 $ git branch //查看版本分支
 
 
+=======
+>>>>>>> e8769d992bead5384f828aa5ee5795a21e98c11b
+```
+与github仓库建立起信任关系：
+```bash
+//本地生成ssh key
+$ ssh-keygen
+//将id_rsa.pub中的公匙添加到github的ssh当中即可
 ```
