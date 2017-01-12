@@ -50,14 +50,13 @@ $ git reset --hard head^
 //回退版本 head表示当前版本，head^代表上一版本，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100。
 $ git reset --hard commit_id 
 //根据版本号回退，commit_id可以在git reflog命令下查看。
-
-<<<<<<< HEAD
 $ git branch //查看版本分支
 
-
-=======
->>>>>>> e8769d992bead5384f828aa5ee5795a21e98c11b
 ```
+
+
+* github仓库操作
+	
 与github仓库建立起信任关系：
 ```bash
 //本地生成ssh key
